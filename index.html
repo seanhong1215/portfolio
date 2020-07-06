@@ -2,11 +2,49 @@
 <html lang="en">
 
 <head>
-  <?php include('include/common.php');?>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEANHONG</title>
+<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+  integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous">
+</script>
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="all.css">
 </head>
 
 <body>
-<?php include('include/header.php');?>
+  <div id="header" class="header">
+    <div class="container navbar">
+      <div class="navbar-box d-flex justify-content-btw">
+        <a class="navbar-brand" href="#">Resume</a>
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/seanhong1215" target="_blank">
+              <i class="bg-cicle fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.pinterest.com/seanhong1215/portfolio/" target="_blank">
+              <i class="fab fa-pinterest-p"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.behance.net/smileangel2b5f" target="_blank">
+              <i class="bg-cicle fab fa-behance"></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="visual-brand d-flex">SEANHONG BRANDING DESIGN</div>
+      <ul class="d-flex tag-info">
+        <li><a href="index.html">About me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul> 
+    </div>
+  </div>
   <div class="main">
     <section class="about d-flex">
       <div class="about-media">
@@ -34,28 +72,28 @@ Sean是個迷戀遊戲世界同時又喜歡戶外活動的社交男，很愛探�
 
     </div>
     </div>
-</section>
-    
-  </div>
-  <?php include('include/footer.php');?>
-  <script>
-     var pagetop = $(window).scrollTop();
-
-$(window).scroll(function(){
-    pagetop = $(window).scrollTop();
-    
-    if( pagetop > 1000 ){
-        $('.top').fadeIn();
-    }else{
-        $('.top').fadeOut();
-
-    }
-});
-
-$('.top').click(function(){
-$('html,body').animate({'scrollTop':0},700);
-});
-  </script>
+    <footer>
+     
+      <div class="personal-social-box">
+        <a href="https://www.linkedin.com/in/seanhong1215" target="_blank">
+          <i class="bg-cicle fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.pinterest.com/seanhong1215/portfolio/" target="_blank">
+          <i class="bg-cicle fab fa-pinterest-p"></i>
+        </a>
+        <a href="https://www.behance.net/smileangel2b5f" target="_blank">
+          <i class="bg-cicle fab fa-behance"></i>
+        </a>
+  
+      </div>
+      <p>Powered by SEANHONG</p>
+    </footer>
+ 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/script.js"></script>
+  
 </body>
 
 </html>
