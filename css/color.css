@@ -1,0 +1,59 @@
+.more a{
+	background-color: #3fa1e8;
+	color: #fff;
+}
+/*
+====================================================
+				Work
+====================================================
+*/
+.work{
+	background-color: #f9f9f9;
+}
+.portfolio-controllers .btn-default{
+	color: #808080;
+}
+.portfolio-controllers .filter-btn{
+	background-color: transparent;
+	color: #222;
+	border-color: #3fa1e8;
+}
+.portfolio-controllers .filter-btn:hover{
+	background-color: #3fa1e8;
+	color: #fff;
+	transition: .3s all;
+}
+.portfolio-controllers .filter-btn.active-work{   
+    color: #3fa1e8;
+}
+.portfolio-controllers .filter-btn.active-work:hover{   
+	color: #fff;
+	transition: .3s all;
+}
+.portfolio-link li a .link-color{
+	background-color: transparent;
+	/*border: 1px solid #00CCCC;*/
+	color: #999;
+}
+.portfolio-link li a:hover .link-color{
+	/*border-color: transparent;*/
+}
+.portfolio-link li a:hover .link-color{
+	color: #fff;
+	transform: rotate(180deg);
+}
+.portfolio-item-title{
+	color: #fff;
+}
+.portfolio-item-title:after{
+	background-color: transparent;
+}
+.caption-content{
+	/* background-color: rgba(225, 225, 225, .7); */
+	background-color: rgba(32, 32, 32, .9);
+}
+
+.btn-primary{
+	color: #3fa1e8;
+	border: 1px solid #3fa1e8;
+}

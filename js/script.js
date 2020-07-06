@@ -1,166 +1,53 @@
-var pagetop = $(window).scrollTop();
-
-          $(window).scroll(function(){
-              pagetop = $(window).scrollTop();
-              
-              if( pagetop > 600 ){
-                  $('.top').fadeIn();
-              }else{
-                  $('.top').fadeOut();
-
-              }
-          });
-
-$('.top').click(function(){
-    $('html,body').animate({'scrollTop':0},700);
-});
-
-$(".fancybox").fancybox({
-  
-});
-
-
-// ----
-
-
-;(function(d,$){
-
-    // 變數的預設值
-  var jQdmtab_defaults = {
-    tabContentsContainer: '.tabContentsContainer',
-    tabEventAction: 'click',
-    current: 0,
-    currentSelector: 'current'
-  };
-
-  $.fn.jQdmtab = function(options){
-
-    //變數設定
-    var defaults = jQdmtab_defaults;
-    var setting = $.extend( defaults, options);
-
-    var _$obj = $(this.get(0)),
-    _s = $.data( $(this), setting ),
-    _p = {
-      tabs: _$obj.find('li'),
-      tabCn: _$obj.find(_s.tabContentsContainer),
-    //   tabCnHeight: function(){
-    //     var _$cns = _p.tabCn.children(),
-    //     _len = _$cns.length,
-    //     _hi = 0;
-    //     while(_len > 0){
-    //       _hi = Math.max( _hi, _$cns.eq(--_len).height());
-    //     }
-    //     return _hi + 40;
-    //   },
-      current: _s.current,
-      isAnimate: false
-    };
-
-    //設定頁面顯示時初始頁簽
-    tabChangeCurrent(_p.current);
-    _p.tabCn.children().not(':eq('+ _p.current +')').css({
-      display: 'none',
-      opacity: 0
+$(document).ready(function(){
+    var showSkill = false;
+    
+    $('.scrollTop').click(function(e){
+      e.preventDefault();
+      var target = $(this).attr('href');
+      var targetPos = $(target).offset().top;
+      $('html, body').animate({scrollTop: targetPos}, 1000);
     });
-    _p.tabCn.css({
-      position: 'relative',
-      overflow: 'hidden',
-      background: '#f0f0f0',
-    //   height: _p.tabCnHeight()
-    });
-
-    // 新增頁簽點擊事件
-    _p.tabs.on( _s.tabEventAction, function(e){
-      if(typeof e.preventDefault() === 'function') {
-        e.preventDefaut();
-      }
-
-      var _$t = $(this),
-      _index = _$t.index();
-      _current = _p.current;
-
-      if(_index != _current && !_p.isAnimate) {
-        hideTabContent(_current);
-        _p.current = _index;
-        showTabContent(_index);
-      }
-    });
-
-    // 頁簽內容隱藏處理
-    function hideTabContent(_current){
-
-      var _$target = _p.tabCn.children().eq(_current);
-      _p.isAnimate = true;
-      tabChangeCurrent(_current);
-      _$target.css({
-        position: 'absolute'
-      }).animate({
-        opacity: 0
-      }, {
-        duration: 500,
-        complete: function(){
-          hideComplete(_$target);
+    
+    $(window).scroll(function(){
+      var scrollPos = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      console.log(scrollPos, windowHeight);
+      
+      $('.scrollTop').each(function(){
+        var target = $(this).attr('href'); 
+        var targetPos = $(target).offset().top;
+        var targetHeight = $(target).outerHeight();
+        if (targetPos - 1 <= scrollPos && (targetPos + targetHeight) > scrollPos){
+          $('.scrollTop').removeClass('active')
+          $(this).addClass('active');
+        } else {
+          $(this).removeClass('active')
         }
       });
-
-      function hideComplete(_$target){
-        _p.isAnimate = false;
-        _$target.css({
-              left: 0,
-              opacity: 0,
-              display: 'none',
-              position: 'relative'
-            });
-      }
-    }
-
-    // 頁簽內容顯示處理
-    function showTabContent(_t){
-
-      var _$target = _p.tabCn.children().eq(_t);
-      _p.isAnimate = true;
-      tabChangeCurrent(_t);
-
-      _$target.css({
-        display: 'block'
-      }).animate({
-        opacity: 1
-      }, {
-        duration: 500,
-        complete: function(){
-          showComplete(_$target);
+      
+      // progress bar
+    //   var skillTop = $('#skills').position().top;
+      // console.log('skillTop', skillTop);
+    //   if (skillTop <= (scrollPos + windowHeight / 2) && !showSkill) {
+    //     showSkill = true;
+    //     $('#skills .progress-bar').each(function(){
+    //       var thisValue = $(this).data('progress');
+    //       console.log('thisValue', thisValue);
+    //       $(this).css('width', thisValue + '%');
+    //     });
+    //   }
+      
+      // animated
+      $('.animated').each(function(){
+        var thisPos = $(this).offset().top;
+        if((windowHeight + scrollPos) >= thisPos) {
+           $(this).addClass('fadeIn');
         }
       });
-
-      function showComplete(_$target){
-
-        _p.isAnimate = false;
-        _$target.css({
-          display: 'block',
-          position: 'relative',
-          opacity: 1
-        });
-
-      }
-    }
-
-    // 切換至目前點擊之頁籤
-    function tabChangeCurrent(_t){
-      _p.tabs.eq(_t).toggleClass(_s.currentSelector);
-    }
-
-  }
-
-  // 原生外掛的有效化
-  // 點擊、fade型態
-  $('#tabContainer2').jQdmtab();
-
-  // 原生外掛的有效化：
-  // 滑鼠移入、fade型態，初始顯示第2個頁簽
-  $('#tabContainer3').jQdmtab({
-    tabEventAction: 'mouseover, mousemove',
-    current: 1
+      
+      // bg scroll 
+      $('#profiles').css('background-position-y', -(scrollPos / 2) + 'px')
+      $('#header-ele').css('transform', 'translateY( ' + (scrollPos / 2) + 'px )')
+    });
+    
   });
-
-})(document, jQuery);

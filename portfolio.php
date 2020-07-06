@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <?php include('include/common.php');?>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+  <?php include('include/header.php');?>
+
+  <div class="main">
+    <section class="work" id="portfolio">
+      <div class="container">
+        <!-- <h2 class="work-title title text-center">My Awesome <strong>Work</strong></h2> -->
+        <div class="row portfolio-controllers-container">
+          <div class="portfolio-controllers wow fadeLeft" data-wow-duration="1s" data-wow-delay=".1s">
+            <!-- <button type="button" class="filter-btn active-work" data-filter="all">All</button> -->
+            <button type="button" class="filter-btn" data-filter=".web-design">Web</button>
+            <button type="button" class="filter-btn" data-filter=".web-development">Dev</button>
+            <button type="button" class="filter-btn" data-filter=".app-interaction">UI/UX</button>
+            <button type="button" class="filter-btn" data-filter=".graphics">Graphics</button>
+            <button type="button" class="filter-btn" data-filter=".wordpress">WordPress</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="portfolios">
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/001.jpg" alt="" class="img-responsive">
+            <figcaption class="caption text-center">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">保羅密斯創意設計公司</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://cht.uhome.tw/design//924/" target="_blank" title="保羅密斯創意設計公司"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/002.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">鴻邑建設-晴川硯</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://cht.uhome.tw/design/newscase/971/" target="_blank" title="鴻邑建設-晴川硯"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/003.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">伊格租屋管理系統</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://cht.uhome.tw/design/916/" target="_blank" title="伊格租屋管理系統"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/004.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">春淵建設</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://www.cybuilding.com.tw/hotcase.php" target="_blank" title="春淵建設"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/005.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">伍一精密開發</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://www.fiveonepowerdevelopment.com/en/home.php" target="_blank" title="伍一精密開發"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/007.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">登陽建設有限公司</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://www.dengyang.com.tw/" target="_blank" title="登陽建設有限公司"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/006.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">紋心生活館</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://donan.com.tw/" target="_blank" title="紋心生活館"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/008.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">禾康消防股份有限公司</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://cht.uhome.tw/design/944/" target="_blank" title="禾康消防股份有限公司"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-design">
+          <figure class="portfolio-image">
+            <img src="images/Web/009.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">屏仕建設-大尺之間</h3>
+                <ul class="portfolio-link">
+                  <li><a href="http://cht.uhome.tw/design/newscase/964/" target="_blank" title="屏仕建設-大尺之間"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/01.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">線上購物平台</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/shopping-cart/" target="_blank" title="線上購物平台"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/02.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">電商網站-甜點電商</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/demo-bootstrap/" target="_blank" title="電商網站-甜點電商"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/03.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">滾動式網站-印刷產業</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/scrolling/" target="_blank" title="滾動式網站-印刷產業"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/04.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">美食餐廳網站</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/bingbing-restaurant/" target="_blank" title="美食餐廳網站"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/05.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">相機網站</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/camera-studio/" target="_blank" title="相機網站"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/06.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">彬彬美食工作坊</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/workshop/" target="_blank" title="彬彬美食工作坊"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/07.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">個人名片</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/seanhong-brand/" target="_blank" title="個人名片"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio web-development">
+          <figure class="portfolio-image">
+            <img src="images/Dev/08.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">E-learning線上學習平台</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong1215.github.io/elearning/#/dashboards/analytics" target="_blank" title="E-learning線上學習平台"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/001.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">交通訂票系統</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/95297751/Flight-Ticket-App" target="_blank" title="交通訂票系統"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/002.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">線上購物APP</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/95629421/Daliy-Creative-Challenge-App-Design" target="_blank" title="線上購物APP"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/003.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">電影平台介面設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/95469765/Movie-app-design" target="_blank" title="電影平台介面設計"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/004.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">Collect</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/95552821/Collect-UI" target="_blank" title="Collect"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/005.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">Components</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/96498387/Daily-Creative-Challenge-Components" target="_blank" title="Components"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio app-interaction">
+          <figure class="portfolio-image">
+            <img src="images/DailyUI/006.png" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">Swipe Gesture</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://www.behance.net/gallery/96484105/Daily-Creative-Challenge-Swipe-Gesture" target="_blank" title="Swipe Gesture"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href=https://www.behance.net/gallery/95297751/Flight-Ticket-App"#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/001.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">海報設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/001.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/002.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">CIS企業識別設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/002.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/003.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">酒瓶包裝設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/003.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/004.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">DM摺頁設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/004.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/005.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">視覺設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/005.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/007.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">集點卡設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/007.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/008.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">海報設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/008.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/009.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">紅包袋設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/009.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio graphics">
+          <figure class="portfolio-image">
+            <img src="images/Graphic/010.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">明信片設計</h3>
+                <ul class="portfolio-link">
+                  <li><a href="images/Graphic/010.jpg" class="fancybox" rel="fancybox"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio wordpress">
+          <figure class="portfolio-image">
+            <img src="images/wordpress/001.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">個人部落格</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://seanhong.co" target="_blank" title="個人部落格"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio wordpress">
+          <figure class="portfolio-image">
+            <img src="images/wordpress/002.jpg" alt="" class="img-responsive">
+            <figcaption class="caption">
+              <div class="caption-content">
+                <h3 class="portfolio-item-title text-center sub-title">設計工作室</h3>
+                <ul class="portfolio-link">
+                  <li><a href="https://studio.seanhong.co" target="_blank" title="設計工作室"><i class="fas fa-plus link-color" aria-hidden="true"></i></a></li>
+                  <!-- <li><a href="#"><i class="fas fa-plus" aria-hidden="true"></i></a></li> -->
+                </ul>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="more more-work more-container text-center">
+        <a href="https://www.behance.net/smileangel2b5f" target="_blank">See More</a>
+      </div>
+
+
+
+    </section><!-- End Work Section -->
+  </div>
+
+
+
+  
+  <?php include('include/footer.php');?>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var pagetop = $(window).scrollTop();
+
+          $(window).scroll(function(){
+              pagetop = $(window).scrollTop();
+              
+              if( pagetop > 600 ){
+                  $('.top').fadeIn();
+              }else{
+                  $('.top').fadeOut();
+
+              }
+          });
+
+$('.top').click(function(){
+    $('html,body').animate({'scrollTop':0},700);
+});
+
+$(".fancybox").fancybox();
+
+      $('.portfolios').filterData({
+        aspectRatio: '8:5',
+        nOfRow: 3,
+        itemDistance: 0
+      });
+      $('.portfolio-controllers button').on('click', function () {
+        $('.portfolio-controllers button').removeClass('active-work');
+        $(this).addClass('active-work');
+      });
+    });
+  </script>
+</body>
+
+</html>

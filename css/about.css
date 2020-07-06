@@ -1,0 +1,162 @@
+section{
+    background-color: #fff;
+}
+
+.about-media{
+    width: 50%;
+    position: relative;
+    background: url(../images/About/002.jpg);
+    background-size: cover;
+    min-height: 600px;
+
+}
+.about-photo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.about-txt{
+    width: 40%;
+    padding: 30px 0;
+    margin: auto;
+}
+
+.about-txt h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ .about-txt h4::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #3fa1e8;
+  margin-left: 10px;
+} 
+
+.about-txt small{
+    font-size: 20px;
+
+}
+.about-txt p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+a.btn{
+    color: #fff;
+    cursor: pointer;
+	border: 1px solid #3fa1e8;
+}
+
+.about-story-bg{
+    background-color: #333;
+    /* position: relative; */
+    /* height: 750px; */
+    margin: auto;
+    padding: 1em;
+}
+.about-story{
+    width: 90%;
+    /* position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%); */
+    margin: auto;
+}
+
+.about-story p{
+    color: #fff;
+    font-size: 20px;
+    width: 90%;
+    margin: 50px auto;
+    line-height: 2;
+   
+}
+
+.story-title{
+    background-color: #3fa1e8;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    padding: .75em 0;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.em-block{
+    /* background-color: #fff; */
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid #000; */
+}
+
+.em-block p{
+    text-align: center;
+    padding: 1.5em 1em;
+    border: 3px solid #3fa1e8;
+    background: #fff;
+    font-size: 24px;
+    color: #333;
+    width: 90%;
+}
+
+
+@media screen and (max-width:1024px){
+    .about-media{
+        display: none;
+    }
+    .about-txt{
+        width: 90%;
+    }
+    .about-story{
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width:768px){
+    .story-title{
+        width: 50%;
+        padding: .35em 0;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .about-story p{
+        width: 90%;
+        margin: 20px auto;
+        font-size: 14px;
+    }
+    .about-txt{
+        text-align: center;
+    }
+    .about-txt h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about-txt small{
+        font-size: 16px;
+    }
+    .about-txt p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .em-block p{
+        padding: .5em .75em;
+        font-size: 14px;
+    }
+    a.btn{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    
+  }
+
+  @media screen and (max-width:414px){
+    .story-title{
+        width: 90%;
+    }
+  }

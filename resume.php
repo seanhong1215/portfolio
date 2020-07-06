@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <?php include('include/common.php');?>
+  </head>
+  <body>
+    <?php include('include/header.php');?>
+  
+    <div class="resume">
+      <div class="personal-info container">
+        <div class="album"></div>
+        <div class="personal-bg">
+          <h1>洪尚彬 Sean Hong</h1>
+          <!-- <p>Interaction Designer</p> -->
+          <!-- <div class="personal-social">
+            <a href="https://www.facebook.com/shihyu.sean" target="_blank">
+              <i class="bg-cicle fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/sean_yu_1215" target="_blank">
+              <i class="bg-cicle fab fa-instagram"></i>
+            </a>
+            <a href="https://www.behance.net/smileangel2b5f" target="_blank">
+              <i class="bg-cicle fab fa-behance"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/seanhong1215" target="_blank">
+              <i class="bg-cicle fab fa-linkedin-in"></i>
+            </a>
+          </div> -->
+          <div class="personal-contact">
+            <p class="personal-contact-txt">seanhong1215@gmail.com</p>      
+            <p class="personal-contact-txt">0988-076-128</p>
+            <p class="personal-contact-txt">國立勤益科技大學畢業</p>
+          </div>
+          <div class="block personal-data">
+            <!-- <h2 class="title">關於我 | About me</h2> -->
+            <p>Hey! I'm a web Design<br>
+                大學畢業後，我在管理，銷售方面有不同的工作，過去5年我一直是活動策劃人，但對設計有很大的興趣，利用下班之餘進修設計的課程，並透過網路上的資源，從平面設計到網頁設計，現在投入前端設計與程式的學習，短短半年的時間，就找到我第一份設計工作，從中也嘗試自己接案，成為自由工作者。此外，我還是不斷精進自己的設計技巧，完成許多專案，如前端介面設計、前端網頁設計、一頁式網站、電商網站等。</p>
+          </div>
+        </div>
+
+        <div class="personal-skills">
+          <h2 class="title">專業技能  | Skill</h2>
+          <div class="section">
+            <ul class="listSkill">
+              <li>
+                <h4 class="listSkill-title">UI/UX設計</h4>
+                  <p>工具熟練、統一規則的設計規範及網格系統。從wireframe到prototype之UI / UX 設計流程與技巧，並增加用戶間的互動效果，製作出好的使用者體驗。</p>
+              </li>
+              <li>
+                <h4 class="listSkill-title">前端網頁設計</h4>
+                  <p>公司形象網站、APP介面設計，照片合成修圖等，製作出簡易的影片動畫，透過版面的不同編排，設計出符合市場需求的視覺感受。</p>
+              </li>
+              <li>
+                <h4 class="listSkill-title">Web Layouts</h4>
+                  <p>純手刻RWD網站，使用主流框架並做到有彈性的網頁架構及客製化，能寫出工程師看的懂並有邏輯性的語意化標籤及模組化的設計模式，友善開發流程。</p>
+              </li>
+            </ul>
+            <ul class="listSkill">
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/239a4449-1fa4-4095-a772-734c183dbb7a.png" alt=""></li>
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/aa0fbbee-4ff9-4069-9316-ca4928f62e39.png" alt=""></li>
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/ac81ab2c-c4ef-451e-add6-ad676f34320e.png" alt=""></li>
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/b691db0c-fca8-492b-afcc-3aa55b016ab3.png" alt=""></li>
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/54ad8419-eac7-4937-8974-a50e950eceae.png" alt=""></li>
+              <li><img src="https://images.cakeresume.com/rZW68/believe1215/9e0a5af2-12a7-435d-a429-a1b191f7706b.png" alt=""></li>
+            </ul>
+          </div>
+
+        <div class="block">
+            <h2 class="title">工作經驗 | Work Experience</h2>
+            <ul class="listExperience">
+              <li class="year">2020
+              <ul><h4>家多利行銷-網頁設計師</h4>
+                <li>負責開發公司網頁版型及手機APP的UI/UX設計，公作內容包括與客戶討論設計方向的溝通、網站視覺呈現與後端工程師合作配合等溝通。</li>
+                
+                <li>主要使用到的技術HTML、CSS、SCSS、JavaScript、PhotoShop、Illustrator等</li>
+              </ul></li>
+              <li class="year">2018
+                <ul><h4>自由工作 | 聯成電腦 | 六角學院線上課程進修</h4>
+                  <li>● 平面設計 - UI/UX介面設計</li>
+                  <li>● 網頁設計 - 網站前端開發</li>
+                  <li>● 專案管理 - FlyingV活動策劃</li>
+                </ul></li>
+              <!-- <li class="year">2017
+              <ul><h4>王品麻佬大川味麻辣燙-餐廳服務生</h4>
+                <li>擔任廚房管理之重要幹部，處理開店前及閉店後的SOP流程，包含食材庫存及備料之準備工作與其它相關行政事務。</li>
+                <li>● 創新員工手冊標準流程(開店及閉店SOP流程) </li>
+                <li>● 開店營運管理</li>
+              </ul></li> -->
+              <li class="year">2016
+              <ul><h4>啟點行銷有限公司-專案執行</h4>
+                <li>從事各式政府標案活動之企劃，負責企劃撰寫、活動規劃、網路媒體活動的宣傳與曝光、關鍵字廣告投放執行與後續活動整體效益評估等工作。</li>
+                <li>●2016 新北市政府市場處-特色市集(二手市集)活動</li>
+                <li>●2017 桃園市客家事務局-食伯公福活動</li>
+              </ul></li>
+              <li class="year">2015
+              <ul><h4>富邦人壽保險股份有限公司-行銷專員,</h4>
+                <li>擔任金融業壽險顧問，銷售多元性金融商品、為顧客量身規劃保險需求以及在地化服務等。</li>
+                <li>● 擔任百人健走活動主持人 </li>
+                <li>● 元智大學-校園實習說明會&企劃活動與人員管理</li>
+              </ul></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <h2 class="title">教育程度 | Education</h2>
+            <ul class="listEducation">
+                <li class="year">2013
+              <ul>
+                <li>國立勤益科技大學 冷凍空調與能源系</li>
+              </ul>
+              </li>
+                <li class="year">2009
+              <ul>
+                <li>私立光華高級工業職業學校</li>
+              </ul></li>
+              </ul>
+            </div>
+
+        
+          <div class="portfolio-block">
+            <h3>精選作品</h3>
+            <ul>
+              <li class="card">
+                <div class="card-item">
+                  <a class="card-item-inner" href="https://www.behance.net/gallery/95297751/Flight-Ticket-App">
+                    <div class="card-item-media">
+                       <div class="card-item-media-overlay"></div>
+                            <div class="txt">
+                              <h4>票券訂購系統</h4>
+                            </div>
+                            <div class="txt">
+                              <p>UI Design</p>
+                            </div>
+                      <img src="images/Resume/001.png">
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="card">
+                <div class="card-item">
+                  <a class="card-item-inner" href="https://www.behance.net/gallery/94966309/Daily-UI-Challenge">
+                    <div class="card-item-media">
+                       <div class="card-item-media-overlay"></div>
+                            <div class="txt">
+                              <h4>海景飯店</h4>
+                            </div>
+                            <div class="txt">
+                              <p>Web Design</p>
+                            </div>
+                      <img src="images/Resume/002.png">
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="card">
+                <div class="card-item">
+                  <a class="card-item-inner" href="https://www.behance.net/gallery/95629421/Daliy-Creative-Challenge-App-Design">
+                    <div class="card-item-media">
+                       <div class="card-item-media-overlay"></div>
+                            <div class="txt">
+                              <h4>Daily UI</h4>
+                            </div>
+                            <div class="txt">
+                              <p>UI Design</p>
+                            </div>
+                      <img src="images/Resume/003.png">
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="card">
+                <div class="card-item">
+                  <a class="card-item-inner" href="https://seanhong1215.github.io/demo-bootstrap/">
+                    <div class="card-item-media">
+                       <div class="card-item-media-overlay"></div>
+                            <div class="txt">
+                              <h4>電商網站-甜點電商</h4>
+                            </div>
+                            <div class="txt">
+                              <p>Web Design</p>
+                            </div>
+                      <img src="images/Resume/006.png">
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <div class="video-container">
+                  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/uWv50-3QAaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+            </div>
+            <div class="btn-box d-flex">
+              <div class="btn btn-primary"><a href="portfolio.html">See More</a></div>
+            </div>
+            
+          </div>
+        </div>
+
+       
+
+
+      </div>
+    </div>
+
+    <?php include('include/footer.php');?>
+    <script>
+      var pagetop = $(window).scrollTop();
+
+$(window).scroll(function(){
+    pagetop = $(window).scrollTop();
+    
+    if( pagetop > 1000 ){
+        $('.top').fadeIn();
+    }else{
+        $('.top').fadeOut();
+
+    }
+});
+
+$('.top').click(function(){
+$('html,body').animate({'scrollTop':0},700);
+});
+    </script>
+  </body>
+</html>
