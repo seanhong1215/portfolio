@@ -385,6 +385,9 @@ font-weight: 600;
 
 
     @media screen and (max-width:1024px){
+      .listSkill li{
+        width: 100%;
+      }
       .personal-data{
         margin: 0;
       }
@@ -406,11 +409,14 @@ font-weight: 600;
       .block, .personal-info, .personal-skills{
         margin-top: 20px;
       }
+      .personal-skills{
+        padding-top: 20px;
+      }
       .title{
         font-size: 24px;
         text-align: center;
       }
-      .listSkill{
+      #listSkill-img{
         display: none;
       }
       .listSkill-title,h4{

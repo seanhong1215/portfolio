@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-.tag-info li:hover{
+.tag-info li:active,.tag-info li:hover{
     transition: .3s all;
     background-color: #3fa1e8;
 }
@@ -146,6 +146,9 @@ footer p{
 }
 .navbar{
   padding-bottom: 20px;
+}
+.top{
+  display: none;
 }
 }
 

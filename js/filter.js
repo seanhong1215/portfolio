@@ -47,10 +47,11 @@
                     breakpoint : 768,
                     containerWidth : 750,
                     settings : {
-                        nOfRow : 2,
+                        nOfRow : 4,
                         nOfColumn : 2
                     }
                 }
+                
             ]
 
     }
@@ -213,7 +214,7 @@
             if (breakpoint == 'xtra-small') {
                 self.containerWidth = self.win;
                 self.nOfColumn  = 1;
-                self.nOfRows = 3;
+                self.nOfRows = 6;
             }
         },
         getRgba : function(hex,alpha=1) {
